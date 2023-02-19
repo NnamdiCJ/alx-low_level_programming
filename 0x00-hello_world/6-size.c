@@ -1,4 +1,4 @@
-#incliude < stdio.h >
+#include < stdio.h >
 /**
  * main - A program that prints the size of various coputer types
  * Return: 0 (Success)
