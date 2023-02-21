@@ -36,7 +36,7 @@ putchar(' ');
 }
 }
 }
-} n
+} n;
 }
 }
 putchar('\n');
