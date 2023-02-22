@@ -1,12 +1,12 @@
 #include "main.h"
 /**
- * print_alphabet_10 - prints all alphabets in lowercase 10 times.
- * Return: On success 1.
+ * print_alphabet_x10 - prints all alphabets in lowercase 10 times.
+ * Return: on success 1.
  */
 
-void print_alphabet_x10(void);
+void print_alphabet_x10(void)
 {
-(char i, k);
+char i, k;
 
 for (k = 0; k < 10; k++)
 {
