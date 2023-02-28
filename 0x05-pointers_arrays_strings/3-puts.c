@@ -1,15 +1,14 @@
 #include "main.h"
 
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * _puts - Prints a string to stdout.
+ * @str: The string to be printed.
+ * _putchar prints a new line
  */
-int main(void)
+void _puts(char *str)
 {
-    char *str;
+	while (*str)
+		_putchar(*str++);
 
-    str = "I do not fear computers. I fear the lack of them - Isaac Asimov";
-    _puts(str);
-    return (0);
+	_putchar('\n');
 }
