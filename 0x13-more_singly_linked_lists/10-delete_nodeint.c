@@ -1,7 +1,7 @@
 #include "lists.h"
 /**
  * delete_nodeint_at_index - deletes a node connected to index
- * @head: pointer to first element 
+ * @head: pointer to first element
  * @index: index of node to delete
  *
  * Return: 1 (Success), or -1 (Fail)
